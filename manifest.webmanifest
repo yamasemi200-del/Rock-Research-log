@@ -1,0 +1,14 @@
+{
+  "name": "研究開発支援システム",
+  "short_name": "研究ログ",
+  "description": "研究の作業と理由を記録する研究ログ",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f8f4",
+  "theme_color": "#22386b",
+  "lang": "ja",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
