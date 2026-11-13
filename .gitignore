@@ -1,0 +1,25 @@
+# Pythonの仮想環境フォルダを完全に除外する（ここが原因の本体です）
+venv/
+.venv/
+env/
+
+# 実験データ、重み、ログ、キャッシュなどの不要なものも除外
+*.pth
+*.h5
+*.csv
+*.png
+*.jpg
+*.jpeg
+*.log
+outputs/
+weights/
+wandb/
+__pycache__/
+.ipynb_checkpoints/
+stone/
+research-support/
+.vscode/
+# 親フォルダにある不要なメモや参考文献などを除外
+/勉強メモ/
+/岩石AIの参考文献/
+/.python-version
