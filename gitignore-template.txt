@@ -1,0 +1,41 @@
+# 研究コード用 .gitignore のひな形
+# 研究コードのフォルダに「.gitignore」という名前で置いてください（先頭のドットが必要）。
+# 自分の研究で出てくるファイルに合わせて追加・削除してください。
+
+# ===== 学習済みの重み・モデル =====
+*.pt
+*.pth
+*.ckpt
+*.engine
+*.onnx
+*.onnx.data
+*.trt
+*.h5
+
+# ===== 動画・大きいデータ =====
+*.mp4
+*.MP4
+*.mov
+*.MOV
+*.avi
+*.zip
+*.tar.gz
+data/
+datasets/
+
+# ===== 実行結果の出力 =====
+runs/
+results/
+*.csv
+
+# ===== Python の一時ファイル・仮想環境 =====
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# ===== エディタ・OS のファイル =====
+.vscode/
+.DS_Store
+Thumbs.db
