@@ -12,4 +12,4 @@ export const firebaseConfig = {
 
 // 任意：自分のメールアドレスを入れると、それ以外のアカウントはログイン直後に締め出します。
 // （本当の守りは firestore.rules。こちらは画面上の案内用です）
-export const ALLOWED_EMAIL = "";
+export const ALLOWED_EMAIL = "yamasemi.200@gmail.com";
